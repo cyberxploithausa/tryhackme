@@ -1,0 +1,84 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-03-02 23:12 WAT
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 23:12
+Completed NSE at 23:12, 0.00s elapsed
+Initiating NSE at 23:12
+Completed NSE at 23:12, 0.00s elapsed
+Initiating NSE at 23:12
+Completed NSE at 23:12, 0.00s elapsed
+Initiating Ping Scan at 23:12
+Scanning 10.10.154.234 [2 ports]
+Completed Ping Scan at 23:12, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 23:12
+Completed Parallel DNS resolution of 1 host. at 23:12, 0.05s elapsed
+Initiating Connect Scan at 23:12
+Scanning 10.10.154.234 [1000 ports]
+Discovered open port 53/tcp on 10.10.154.234
+Discovered open port 21/tcp on 10.10.154.234
+Discovered open port 80/tcp on 10.10.154.234
+Discovered open port 135/tcp on 10.10.154.234
+Discovered open port 3389/tcp on 10.10.154.234
+Completed Connect Scan at 23:12, 9.33s elapsed (1000 total ports)
+Initiating Service scan at 23:12
+Scanning 5 services on 10.10.154.234
+Completed Service scan at 23:12, 11.58s elapsed (5 services on 1 host)
+NSE: Script scanning 10.10.154.234.
+Initiating NSE at 23:12
+NSE: [ftp-bounce] PORT response: 421 Rejected command, requested IP address does not match control connection IP.
+Completed NSE at 23:13, 31.47s elapsed
+Initiating NSE at 23:13
+Completed NSE at 23:13, 1.78s elapsed
+Initiating NSE at 23:13
+Completed NSE at 23:13, 0.00s elapsed
+Nmap scan report for 10.10.154.234
+Host is up (0.17s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           FileZilla ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+53/tcp   open  domain        Simple DNS Plus
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows Server
+|_http-server-header: Microsoft-IIS/10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-SCAN
+|   NetBIOS_Domain_Name: WIN-SCAN
+|   NetBIOS_Computer_Name: WIN-SCAN
+|   DNS_Domain_Name: win-scan
+|   DNS_Computer_Name: win-scan
+|   Product_Version: 10.0.17763
+|_  System_Time: 2023-03-02T21:12:47+00:00
+|_ssl-date: 2023-03-02T21:13:17+00:00; -59m52s from scanner time.
+| ssl-cert: Subject: commonName=win-scan
+| Issuer: commonName=win-scan
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-03-01T20:23:21
+| Not valid after:  2023-08-31T20:23:21
+| MD5:   f53f cf6c 8631 36e8 2cce 260b ee07 e962
+|_SHA-1: 677e ffde a1f0 de22 db1f 5e8d 125a 9411 ffb2 9a52
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -59m51s, deviation: 0s, median: -59m52s
+
+NSE: Script Post-scanning.
+Initiating NSE at 23:13
+Completed NSE at 23:13, 0.00s elapsed
+Initiating NSE at 23:13
+Completed NSE at 23:13, 0.00s elapsed
+Initiating NSE at 23:13
+Completed NSE at 23:13, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 56.63 seconds
