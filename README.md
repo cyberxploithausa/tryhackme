@@ -20,7 +20,7 @@ Feel free to explore the write-ups, and if you find them helpful or have any fee
 
 Here are some of the key CTF write-ups available in this repository:
 
-- [COMPLETE_BEGINNER_PATH](./room-name-1/README.md)
+- [COMPLETE_BEGINNER_PATH](COMPLETE_BEGINNER)
   - Description of the room
   - Difficulty level
   - Write-up and explanation
