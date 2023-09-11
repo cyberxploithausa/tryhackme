@@ -34,7 +34,7 @@ Here are some of the key CTF write-ups available in this repository:
 
 ## Room List
 
-You can find a list of all the rooms I have completed and written write-ups for in the [Room List](tryhackme) file.
+You can find a list of all the rooms I have completed and written write-ups for in the [Room List](https://github.com/cyberxploithausa/tryhackme/tree/main).
 
 ## Contributing
 
@@ -43,7 +43,7 @@ Contributions are welcome! If you'd like to contribute your own CTF write-ups or
 1. Fork this repository.
 2. Create a new branch for your changes: `git checkout -b feature/your-feature-name`
 3. Make your changes and add your CTF write-up in the appropriate directory.
-4. Update the [Room List](ROOM-LIST.md) if necessary.
+4. Update the [Room List](https://github.com/cyberxploithausa/tryhackme/tree/main) if necessary.
 5. Create a pull request (PR) describing your changes.
 
 Please ensure your write-ups are well-documented, follow a consistent style, and provide clear explanations.
