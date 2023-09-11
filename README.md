@@ -34,7 +34,7 @@ Here are some of the key CTF write-ups available in this repository:
 
 ## Room List
 
-You can find a list of all the rooms I have completed and written write-ups for in the [Room List](ROOM-LIST.md) file.
+You can find a list of all the rooms I have completed and written write-ups for in the [Room List](tryhackme) file.
 
 ## Contributing
 
